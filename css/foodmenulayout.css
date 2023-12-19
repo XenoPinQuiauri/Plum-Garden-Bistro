@@ -1,0 +1,68 @@
+/*Layout setup*/
+.navbar{
+    position:fixed;
+    background-color: #693D46;
+    width: 15%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+.navbar img{
+    width: 100%;
+    height:30%;
+}
+.foodmenu{
+    display: grid;
+    position:absolute;
+    padding:10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 6fr 6fr 6fr;
+    top:0;
+    left:15%;
+    width:85%;
+    height:100%;
+    z-index:1;
+}
+section{
+    width:95%;
+    height:90%;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: #9b1049;
+}
+footer{
+    position:fixed;
+    bottom:0;
+    left:15%;
+    width:85%;
+    height:3%;
+    z-index:2;
+    background-color: white;
+}
+a{
+    color: rgb(46, 13, 33);
+    text-decoration: none;
+    font-weight: 300;
+}
+ul li{
+    display: inline-table;
+    padding-right: 50px;
+    width: 200px;
+    font-size: 2rem;
+}
+
+
+/*complicated background and colors*/
+.foodmenu{
+    background: linear-gradient(45deg , #ffc5c5 10%,transparent 11%, transparent 89% , #ffc5c5 90%),linear-gradient(135deg , #ffc5c5 10%,transparent 11%, transparent 89% , #ffc5c5 90%),radial-gradient(circle, transparent 25%, #fff2f3  26%),linear-gradient(45deg, transparent 46%, #ffc5c5 47%, #ffc5c5 52%, transparent 53%), linear-gradient(135deg, transparent 46%, #ffc5c5 47%, #ffc5c5 52%, transparent 53%);
+        background-size: 3em 3em;
+        background-color: #fff2f3;
+        opacity: 1
+}
+section{
+    background: linear-gradient(45deg, transparent 49%, #ffb4b4 49% 51%, transparent 51%) , linear-gradient(-45deg, transparent 49%, #ffb4b4 49% 51%, transparent 51%);
+        background-size: 3em 3em;
+        background-color: #ffe0e3;
+        opacity: 1
+}

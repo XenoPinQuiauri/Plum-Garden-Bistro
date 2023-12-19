@@ -1,0 +1,76 @@
+/*Layout setup*/
+.navbar{
+    position:fixed;
+    background-color: #693D46;
+    width: 15%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+.navbar img{
+    width: 100%;
+    height:30%;
+}
+.topstuff{
+    position:absolute;
+    background-color: white;
+    width:85%;
+    height:700px;
+    top:0;
+    left:15%;
+}
+#sidebar{
+    position:absolute;
+    top:0;
+    right:0%;
+    width:35%;
+    height:100%;
+}
+.showcase{
+    position:absolute;
+    background-color: yellow;
+    left:15%;
+    top:700px;
+    width:85%;
+    height:400px;
+}
+#for-you{
+    position:absolute;
+    background-color: orange;
+    top:1100px;
+    left:15%;
+    width:85%;
+    height:100px
+
+}
+footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:15%;
+    height:3%;
+    z-index:2;
+    background-color: white;
+}
+a{
+    color: rgb(46, 13, 33);
+    text-decoration: none;
+    font-weight: 300;
+}
+ul li{
+    display: inline-table;
+    padding-right: 50px;
+    width: 200px;
+    font-size: 2rem;
+}
+
+/*compliacted background and color*/
+body{
+    background: #9c297f;
+    background: -webkit-linear-gradient(0deg, #9c297f 0%, #ca2374 50%, #e4406f 100%);
+    background: linear-gradient(0deg, #9c297f 0%, #ca2374 50%, #e4406f 100%);
+}
+#sidebar{
+    background-color: rgba(153, 66, 66, 0.552);
+}
